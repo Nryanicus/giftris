@@ -1,0 +1,28 @@
+################################################################################
+#                       Configuration Files for Giftris                        #
+################################################################################
+
+# where the gifs to be displayed are located in the filesystem
+#SOURCE_DIRC C:\Kohgnytyuus\Python\PyDev\Giftris\test
+SOURCE_DIRC C:\Kohgnytyuus\Pictures\Lulz
+
+# how quickly the gifs will fall down the screen, in pixels-per-second
+FALL_RATE 300
+
+# how many times a gif will loop before it dissappears
+LOOPS 10
+
+# alternative to above, ensures all gifs will loop for the specified number of
+# seconds. Any value here other than 0 will override the above
+LOOP_TIME 0
+
+################### Probably shouldn't mess with this stuff: ###################
+
+# how many frames a gif will load before continuing with the rendering cycle
+LOADING_ITERATIONS 5
+
+# how long the packer will attempt to fill a gap before giving up
+MAX_PLACES 1000
+
+# how many gaps the packer will generate and attempt to fill before giving up
+MAX_RECALCS 1000
